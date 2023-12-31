@@ -1,0 +1,83 @@
+:root
+{
+   --poteh : #73142d;
+   --rodok : #3c3c3c;
+   --tengah : #9ba8ae;
+   --rodok-abu : #d9184b;
+   --abu-nemen : #;
+   --black : #282828;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: tahoma;
+}
+
+
+body
+{
+    background-color: var(--black);
+    color: var(--rodok-abu);
+}
+
+header
+{
+    text-align: center;
+    background-color: var(--rodok);
+    position: fixed;
+    width: 100%;
+    font-weight: bold;
+}
+
+.title
+{
+    color: var(--green);
+    border-bottom: 1px solid var(--black);
+}
+
+.input-search
+{
+    width: 25%;
+    border: none;
+    border-radius: 0 0 0 8px;
+    padding: 2px;
+}
+
+.input-submit
+{
+    margin-left: -5px;
+    border: none;
+    border-radius: 0 0 10px 0;
+    padding: 2px;
+    background-color: var(--poteh);
+    color: var(--rodok-abu);
+    width: 5%;
+    font-weight: bold;
+}
+
+nav
+{
+    margin-top: 15px;
+}
+
+nav ul
+{
+    display: flex;
+    gap: 23px;
+    justify-content: center;
+}
+
+nav ul li a
+{
+    color: var(--green);
+}
+
+nav ul li a:hover
+{
+    border-bottom: 1px solid var(--white);
+}
